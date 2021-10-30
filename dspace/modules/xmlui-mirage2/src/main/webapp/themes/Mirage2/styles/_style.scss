@@ -19,9 +19,63 @@
 
 @include selection {
     color: white;
-    background: hotpink;
+    background: lighten($brand-primary, 13%);;
 }
 
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('../vendor/bootstrap-sass-official/assets/fonts/bootstrap/glyphicons-halflings-regular.eot');
+    src: url('../vendor/bootstrap-sass-official/assets/fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../vendor/bootstrap-sass-official/assets/fonts/bootstrap/glyphicons-halflings-regular.woff') format('woff'), url('../vendor/bootstrap-sass-official/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf') format('truetype'), url('../vendor/bootstrap-sass-official/assets/fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+.navbar {
+    min-height: 70px;
+}
+
+.navbar-brand {
+    padding: 5px 15px;
+    height: 54px
+}
+
+ header .navbar-brand img {
+    height: 60px
+}
+
+.headerInfoName {
+    color: $brand-primary;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 13px;
+    margin-bottom: 10px;
+    margin-left: -10px;
+    position: absolute
+}
+
+.headerInfoText {
+    font-size: 15px;
+    color: $brand-primary;
+    position: absolute;
+    top: 35px;
+    margin-left: -10px;
+    line-height: 15px;
+}
+
+.breadcrumb > li + li:before {
+  content: "\00BB";
+}
+
+.thumbnail > img, .thumbnail > img, .thumbnail a > img {
+  max-height: 200px;
+}
+
+.dropdown-menu > li > a { /* Wrap text in dropdown */
+  white-space: inherit;
+  color: $brand-primary;
+}
+
+.thumbnail {
+  border:none;
+}
 .publication-records-modal, .publication-records-modal ul {
   list-style-type: none;
   padding-left: 0px;
@@ -59,3 +113,11 @@
     margin-bottom:5px;
   }
 }
+
+.modal-backdrop { /* Send modal window to front */
+  z-index: -1;
+}
+
+a.disabled:hover {
+    cursor:not-allowed
+ }
