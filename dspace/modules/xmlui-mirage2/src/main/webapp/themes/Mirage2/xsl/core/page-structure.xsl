@@ -713,12 +713,17 @@
                     <div class="col-xs-7 col-sm-8">
                         <div class="hidden-print">
                             <xsl:text>&#169;&#160;</xsl:text>
-                            <a target="_blank" href="http://wvsu.edu.ph">
+                            <xsl:value-of select="date:year()"/>
+                            <xsl:text>&#160;</xsl:text>
+                            <a target="_blank" href="https://wvsu.edu.ph/library/">
+                                <xsl:text>University Learning Resource Center</xsl:text>
+                            </a>
+                            <xsl:text> | </xsl:text>
+                            <a target="_blank" href="https://wvsu.edu.ph">
                                 <acronym title="West Visayas State University">
                                     <xsl:text>WVSU</xsl:text>
                                 </acronym>
                             </a>
-                            &#160;<xsl:value-of select="date:year()"/>
                         </div>
                     </div>
                     <div class="col-xs-5 col-sm-4 hidden-print">
