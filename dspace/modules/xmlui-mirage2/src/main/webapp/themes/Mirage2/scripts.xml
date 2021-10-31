@@ -10,13 +10,16 @@
 -->
 <scripts>
     <!-- build:js scripts/theme.js-->
-    <script src="vendor/jquery/jquery.min.js">&#160;</script>
+    <script src="vendor/jquery/dist/jquery.min.js">&#160;</script>
+    <script src="vendor/jquery-ui/jquery-ui.min.js">&#160;</script>
+    <!--
     <script src="vendor/jquery-ui/ui/jquery.ui.core.js">&#160;</script>
     <script src="vendor/jquery-ui/ui/jquery.ui.datepicker.js">&#160;</script>
     <script src="vendor/jquery-ui/ui/jquery.ui.widget.js">&#160;</script>
     <script src="vendor/jquery-ui/ui/jquery.ui.position.js">&#160;</script>
     <script src="vendor/jquery-ui/ui/jquery.ui.menu.js">&#160;</script>
     <script src="vendor/jquery-ui/ui/jquery.ui.autocomplete.js">&#160;</script>
+    -->
     <script src="vendor/handlebars/handlebars.js">&#160;</script>
     <script src="vendor/holderjs/holder.js">&#160;</script>
     <!--<script src="vendor/bootstrap-sass-official/assets/javascripts/bootstrap/affix.js">&#160;</script>-->
@@ -53,7 +56,7 @@
     <!-- custom javascript for SAIR -->
     <script src="scripts/treeview/jquery.treeview.js">&#160;</script>
     <script src="scripts/treeview/jquery.cookie.js">&#160;</script>
-    <script src="scripts/bahandian.js">&#160;</script>
+    <script src="scripts/wvsu-repo.js">&#160;</script>
 
     <!--the build comments below need to be inline to fix the 'undefined'
     issue mentioned at https://github.com/yeoman/grunt-usemin/issues/128 -->
