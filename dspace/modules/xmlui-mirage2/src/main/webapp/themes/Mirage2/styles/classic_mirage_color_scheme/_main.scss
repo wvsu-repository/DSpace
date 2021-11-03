@@ -7,14 +7,14 @@
  */
 @import "compass";
 // variables
-@import "bootswatch/variables";
+@import "bootstrap_color_scheme/variables";
 // Bootstrap
 @function twbs-font-path($font-name) {
     @return "../vendor/bootstrap-sass-official/assets/fonts/" + $font-name
 }
 @import "../vendor/bootstrap-sass-official/assets/stylesheets/bootstrap";
-@import "bootswatch/bootstrap.min.css";
-@import "bootswatch/bootswatch";
+@import "bootstrap_color_scheme/bootstrap.min.css";
+@import "bootstrap_color_scheme/bootswatch";
 
 @import "classic_mirage_color_scheme/dspace_variables";
 

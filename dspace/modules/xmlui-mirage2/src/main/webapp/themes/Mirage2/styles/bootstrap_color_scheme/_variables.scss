@@ -16,12 +16,12 @@ $gray-light:             #808080 !default;
 $gray-lighter:           #ddd !default;
 
 //$brand-primary:         #D9230F !default;
-$brand-primary:         #1569AE !default;
+$brand-primary:         #0360A3 !default;
 $brand-success:         #469408 !default;
 $brand-info:            #029ACF !default;
 $brand-warning:         #9B479F !default;
 $brand-danger:          #D9831F !default;
-
+$accent:                #E8C65E !default;
 
 //== Scaffolding
 //
@@ -147,7 +147,9 @@ $table-border-color:            #ddd !default;
 $btn-font-weight:                normal !default;
 
 $btn-default-color:              #fff !default;
-$btn-default-bg:                 #474949 !default;
+//$btn-default-bg:                 #474949 !default;
+//$btn-default-border:             $btn-default-bg !default;
+$btn-default-bg:                 $brand-primary !default;
 $btn-default-border:             $btn-default-bg !default;
 
 $btn-primary-color:              $btn-default-color !default;
