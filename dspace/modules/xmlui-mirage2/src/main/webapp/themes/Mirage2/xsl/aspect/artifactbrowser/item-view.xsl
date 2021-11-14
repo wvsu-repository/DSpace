@@ -1343,7 +1343,7 @@ or dim:field[@element='coverage'][@qualifier='spatial']">
                             </xsl:variable>
                             <i aria-hidden="true">
                                 <xsl:attribute name="class">
-                                    <xsl:text>fas fa-download</xsl:text>
+                                    <xsl:text>glyphicon glyphicon-download-alt</xsl:text>
                                 </xsl:attribute>
                             </i>
                             <xsl:text> </xsl:text>
