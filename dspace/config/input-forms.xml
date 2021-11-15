@@ -347,7 +347,7 @@ it, please enter the types and the actual numbers or codes.</hint>
          <input-type>twobox</input-type>
          <hint>Enter appropriate subject keywords or phrases (Please use author supplied subjects if available for this field). </hint>
          <required></required>
-         <vocabulary>srsc</vocabulary>
+         <!-- <vocabulary>srsc</vocabulary> -->
        </field>
 
        <field>
