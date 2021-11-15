@@ -295,7 +295,7 @@ it, please enter the types and the actual numbers or codes.</hint>
          <type-bind>Thesis,Dissertation</type-bind>
          <input-type>onebox</input-type>
          <hint>Name of the degree associated with the work as it appears within the work. (example: Masters of Arts in Education)</hint>
-         <required>You must enter the Department's name.</required>
+         <required>You must enter the Degree's name.</required>
        </field>
 
        <field>
@@ -307,7 +307,7 @@ it, please enter the types and the actual numbers or codes.</hint>
          <type-bind>Thesis,Dissertation</type-bind>
          <input-type>onebox</input-type>
          <hint>Level of education associated with the document. (e.g., Undergraduate, Masters, Doctoral, Postdoctoral)</hint>
-         <required>You must enter the Degree for this item</required>
+         <required>You must enter the Degree level for this item</required>
        </field>
 
        <field>
@@ -319,6 +319,7 @@ it, please enter the types and the actual numbers or codes.</hint>
          <type-bind>Thesis,Dissertation</type-bind>
          <input-type>onebox</input-type>
          <hint>Area of study of the intellectual content of the document. Usually, this will be the name of a program or department.</hint>
+         <required>You must enter the Degree discipline for this item</required>        
        </field>
 
        <field>
@@ -330,6 +331,7 @@ it, please enter the types and the actual numbers or codes.</hint>
          <type-bind>Thesis,Dissertation</type-bind>
          <input-type>onebox</input-type>
          <hint>Institution granting the degree associated with the work.</hint>
+         <required>You must enter the Degree grantor for this item</required>        
        </field>
 
      </page>
