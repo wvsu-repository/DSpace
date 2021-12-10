@@ -887,6 +887,9 @@
         </xsl:if>
 
         <xsl:call-template name="addJavascript-google-analytics" />
+        <script type='text/javascript'
+                src='https://platform-api.sharethis.com/js/sharethis.js#property=61b06bcb59afaf001ae4aa24&amp;product=inline-share-buttons'
+                async='async'>&#160;</script>
     </xsl:template>
 
     <xsl:template name="addJavascript-google-analytics">

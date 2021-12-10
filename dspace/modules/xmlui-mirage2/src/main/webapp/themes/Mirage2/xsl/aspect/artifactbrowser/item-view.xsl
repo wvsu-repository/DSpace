@@ -121,6 +121,7 @@
                     <xsl:call-template name="itemSummaryView-DIM-advisers"/>
                     <xsl:call-template name="itemSummaryView-DIM-chair"/>
                     <xsl:call-template name="itemSummaryView-DIM-member"/>
+                    <xsl:call-template name="sharethis"/>
                     <xsl:if test="$ds_item_view_toggle_url != ''">
                         <xsl:call-template name="itemSummaryView-show-full"/>
                     </xsl:if>
@@ -839,6 +840,16 @@ or dim:field[@element='coverage'][@qualifier='spatial']">
                 </div>
             </div>
         </xsl:if>
+    </xsl:template>
+
+    <xsl:template name="sharethis">
+        <div class="simple-item-view-date word-break item-page-field-wrapper table">
+            <h5>
+                <i18n:text>xmlui.dri2xhtml.METS-1.0.item-share</i18n:text>&#160;
+                <i aria-hidden="true" class="glyphicon glyphicon-share-alt"></i>
+            </h5>
+            <div class="sharethis-inline-share-buttons">&#160;</div>
+        </div>
     </xsl:template>
 
     <!-- This is to render line breaks in abstract and description fields in item simple view -->
