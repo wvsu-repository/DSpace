@@ -43,7 +43,7 @@ header {
          }
 
          border-color: transparent;
-         color: $navbar-inverse-link-color;
+         color: $brand-primary;
          &:hover,
          &:focus {
              color: $navbar-inverse-link-hover-color;
@@ -87,16 +87,16 @@ header {
 
 
 
-//    .navbar-toggle {
-//        border-color: $navbar-inverse-toggle-border-color;
-//        &:hover,
-//        &:focus {
-//            background-color: $navbar-inverse-toggle-hover-bg;
-//        }
-//        .icon-bar {
-//            background-color: $navbar-inverse-toggle-icon-bar-bg;
-//        }
-//    }
+    .navbar-toggle {
+        border-color: transparent;
+        &:hover,
+        &:focus {
+            background-color: $navbar-inverse-toggle-hover-bg;
+        }
+        .icon-bar {
+            background-color: $brand-primary;
+        }
+    }
     }
 }
 
@@ -155,6 +155,27 @@ header {
     }
 }
 
+// Links
+
+a#trail-dropdown-toggle {
+  color: #FFFFFF;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: $accent;
+    text-decoration: none;
+  }
+
+  &:focus {
+    @include tab-focus;
+  }
+}
+
+a, a:hover {
+  text-decoration: none !important;
+}
+
 //example mixin to set the text-selection style
 @mixin selection {
     ::-moz-selection { @content; }
@@ -163,7 +184,7 @@ header {
 
 @include selection {
     color: white;
-    background: lighten($brand-primary, 13%);;
+    background: $brand-primary;
 }
 
 @import url(../scripts/treeview/jquery.treeview.css);
@@ -172,38 +193,6 @@ header {
     font-family: 'Glyphicons Halflings';
     src: url('../vendor/bootstrap-sass-official/assets/fonts/bootstrap/glyphicons-halflings-regular.eot');
     src: url('../vendor/bootstrap-sass-official/assets/fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../vendor/bootstrap-sass-official/assets/fonts/bootstrap/glyphicons-halflings-regular.woff') format('woff'), url('../vendor/bootstrap-sass-official/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf') format('truetype'), url('../vendor/bootstrap-sass-official/assets/fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
-}
-
-.navbar {
-    min-height: 70px;
-}
-
-.navbar-brand {
-    padding: 5px 15px;
-    height: 54px
-}
-
- header .navbar-brand img {
-    height: 60px
-}
-
-.headerInfoName {
-    color: $brand-primary;
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 13px;
-    margin-bottom: 10px;
-    margin-left: -10px;
-    position: absolute
-}
-
-.headerInfoText {
-    font-size: 15px;
-    color: $brand-primary;
-    position: absolute;
-    top: 35px;
-    margin-left: -10px;
-    line-height: 15px;
 }
 
 .breadcrumb > li + li:before {
@@ -220,9 +209,6 @@ header {
   color: $brand-primary;
 }
 
-.thumbnail {
-  border:none;
-}
 .publication-records-modal, .publication-records-modal ul {
   list-style-type: none;
   padding-left: 0px;
@@ -259,6 +245,38 @@ header {
   #aspect_submission_StepTransformer_item_publication-title{
     margin-bottom:5px;
   }
+}
+
+.navbar {
+    min-height: 70px;
+}
+
+.navbar-brand {
+    padding: 5px 15px;
+    height: 54px
+}
+
+ header .navbar-brand img {
+    height: 60px
+}
+
+.headerInfoName {
+    color: $brand-primary;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 13px;
+    margin-bottom: 10px;
+    margin-left: -10px;
+    position: absolute
+}
+
+.headerInfoText {
+    font-size: 15px;
+    color: $brand-primary;
+    position: absolute;
+    top: 35px;
+    margin-left: -10px;
+    line-height: 15px;
 }
 
 .modal-backdrop { /* Send modal window to front */
