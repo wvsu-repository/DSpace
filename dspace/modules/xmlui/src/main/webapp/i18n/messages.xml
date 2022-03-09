@@ -2232,6 +2232,7 @@
 	<message key="xmlui.dri2xhtml.METS-1.0.item-format">Physical Description</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-ddc">Shelf Location</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-issn">ISSN</message>
+	<message key="xmlui.dri2xhtml.METS-1.0.item-isbn">ISBN</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-doi">DOI</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-url">Associated content</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-share">Share</message>
@@ -2396,6 +2397,18 @@
   <message key="xmlui.ChoiceLookupTransformer.field.dc_contributor_author.help.first">First name(s) e.g. "Fred"</message>
   <message key="xmlui.ChoiceLookupTransformer.field.dc_contributor_author.title">LC Name Authority author lookup</message>
   <message key="xmlui.ChoiceLookupTransformer.field.dc_contributor_author.nonauthority">Local value "@1@" (not in Naming Authority)</message>
+
+  <!-- Choice Lookup - sample config for dc.subject.lcsh field -->
+  <message key="xmlui.ChoiceLookupTransformer.field.dc_subject_lcsh.help">Library of Congress Subject Headings</message>
+  <message key="xmlui.ChoiceLookupTransformer.field.dc_subject_lcsh.title">Look up Library of Congress Subject Headings</message>
+
+  <!-- Choice Lookup - sample config for dc.subject.mesh field -->
+  <message key="xmlui.ChoiceLookupTransformer.field.dc_subject_mesh.help">MEdical Subject Headings</message>
+  <message key="xmlui.ChoiceLookupTransformer.field.dc_subject_mesh.title">Look up MEdical Subject Headings</message>
+
+  <!-- Choice Lookup - sample config for dc.coverage.spatial field -->
+  <message key="xmlui.ChoiceLookupTransformer.field.dc_coverage_spatial.help">Geographic Names</message>
+  <message key="xmlui.ChoiceLookupTransformer.field.dc_coverage_spatial.title">Look up Getty Thesaurus of Geographic Names</message>
 
   <!-- mobile theme -->
   <message key="xmlui.mobile.home_mobile">DSpace Mobile</message>
