@@ -2534,27 +2534,27 @@
     <message key="xmlui.Submission.submit.progressbar.lookup">Lookup</message>
 
 	<message key="wvsu.news.content">
-	<p>The West Visayas State University (WVSU) Institutional Repository, dubbed as XXXXX, is the official institutional repository of scholarly and creative works of taga-West.</p>
-<p>The objectives of the WVSU Repository are to:</p>
-<ul>
-<li>offer a long term preservation, access, retrieval, and dissemination of scholarly and creative works of taga-West</li>
-<li>serve as the research hub of <i>taga-West</i> showcasing their excellence, creativity, innovation, and service to the community</li>
-<li>increase accessibility, visibility, and citation of taga-West researches, creative works, publications, and technologies to its stakeholders globally</li>
-</ul>
-<p>The following scholarly and creative works of taga-West will be made available in the WVSU Institutional Repository:</p>
-<ul>
-<li>Publications in scientific journals, books, and conference proceedings</li>
-<li>Research abstract, posters and papers presented at Conferences</li>
-<li>Research papers (Clinical, Community,)</li>
-<li>WVSU Research Journals, WVSU Medical Journals</li>
-<li>Theses and dissertations</li>
-<li>Patents and utility models</li>
-<li>Literary works</li>
-<li>Annual reports</li>
-<li>Newsletters and bulletins</li>
-<li>Flyers, brochures, among others</li>
-</ul>
-<p>In the future, the following will be included in the repository- multimedia/audio visual materials, photos, memorabilias, performances, instructional materials, modules, lesson plans, laboratory manuals, computer programs, source codes, softwares, research data among others.</p>
+		<p>The West Visayas State University (WVSU) Institutional Repository, is the official institutional repository of scholarly and creative works of taga-West.</p>
+		<p>The objectives of the WVSU Repository are to:</p>
+		<ul>
+			<li>offer a long term preservation, access, retrieval, and dissemination of scholarly and creative works of taga-West</li>
+			<li>serve as the research hub of <i>taga-West</i> showcasing their excellence, creativity, innovation, and service to the community</li>
+			<li>increase accessibility, visibility, and citation of taga-West researches, creative works, publications, and technologies to its stakeholders globally</li>
+		</ul>
+		<p>The following scholarly and creative works of taga-West will be made available in the WVSU Institutional Repository:</p>
+		<ul>
+			<li>Publications in scientific journals, books, and conference proceedings</li>
+			<li>Research abstract, posters and papers presented at Conferences</li>
+			<li>Research papers (Clinical, Community,)</li>
+			<li>WVSU Research Journals, WVSU Medical Journals</li>
+			<li>Theses and dissertations</li>
+			<li>Patents and utility models</li>
+			<li>Literary works</li>
+			<li>Annual reports</li>
+			<li>Newsletters and bulletins</li>
+			<li>Flyers, brochures, among others</li>
+		</ul>
+		<p>In the future, the following will be included in the repository- multimedia/audio visual materials, photos, memorabilias, performances, instructional materials, modules, lesson plans, laboratory manuals, computer programs, source codes, software, research data among others.</p>
 	</message>
 
 
